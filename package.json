@@ -1,0 +1,19 @@
+{
+    "name": "expedicao",
+    "version": "1.0.0",
+    "main": "src/app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Joshua Fernandes",
+    "license": "ISC",
+    "homepage": "",
+    "description": "type adicionado para suportar import/export (obrigatório se for usar import from e export default), start adicionado para rodar o servidor e  dependencies adicionado para instalar as dependências com npm install",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "mongoose": "^8.7.1"
+    }
+}
